@@ -3,7 +3,7 @@ import pandas as pd
 import requests  # Requests é utilizado para fazer requisições HTTP (GET, POST, etc.)
 
 # Base URL da API do backend (Flask)
-BASE_URL = "http://127.0.0.1:5000"
+BASE_URL = "https://aps-3.onrender.com/"
 # Definimos a base URL onde o backend está rodando (localmente no endereço 127.0.0.1 na porta 5000).
 # Todas as requisições da aplicação serão enviadas para esse endpoint (ou serviço), concatenando o recurso desejado.
 

@@ -1,6 +1,6 @@
 from front import *
 
-BASE_URL = "http://127.0.0.1:5000"
+BASE_URL = "https://aps-3.onrender.com/"
 
 # Função para adicionar um novo usuário
 def post_emprestimos(BASE_URL, data_aluguel,id_usuario,id_bike):

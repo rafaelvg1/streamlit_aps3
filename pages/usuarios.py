@@ -4,7 +4,7 @@ import requests  # Requests é utilizado para fazer requisições HTTP (GET, POS
 import requests
 import streamlit as st
 
-BASE_URL = "http://127.0.0.1:5000"
+BASE_URL = "https://aps-3.onrender.com/"
 
 # Função para adicionar um novo usuário
 def post_usuario(BASE_URL, nome, cpf, data_nascimento):
